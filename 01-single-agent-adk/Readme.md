@@ -13,18 +13,13 @@ This project demonstrates how to prototype and build a single-agent application 
 
 ### 1. Clone the Repository
 
-git clone <your_repo_url>  
-cd code-vipassana-season-10/task-1
+git clone https://github.com/AkshayCu-Codes/code-vipassana-season-10.git
+cd code-vipassana-season-10/01-single-agent-adk
 
 ### 2. Create and Activate Virtual Environment
 
-On Unix/Mac:  
-python -m venv .venv  
+python3 -m venv .venv
 source .venv/bin/activate
-
-On Windows:  
-python -m venv .venv  
-.\.venv\Scripts\activate
 
 ### 3. Install Dependencies
 
