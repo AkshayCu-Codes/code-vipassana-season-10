@@ -136,3 +136,12 @@ Your agent is now live and functional. You can now test and enhance it by:
 - Connecting to additional APIs for personalization
 
 ---
+
+## 🖼️ Results & Screenshots
+
+### 🔹 Running the code on Terminal
+![Running the code](./images/Code-Run.png)
+
+### 🔹 Output on Terminal
+![Output](./images/Output.png)
+
