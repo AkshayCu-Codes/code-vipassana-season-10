@@ -29,7 +29,13 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root directory with the following:
 
-STORAGE_BUCKET=next-demo-store
+GOOGLE_GENAI_USE_VERTEXAI=FALSE  
+GOOGLE_API_KEY=<<your API KEY>>  
+GOOGLE_CLOUD_LOCATION = us-central1 <<or your region>>  
+GOOGLE_CLOUD_PROJECT = <<your project id>>  
+PROJECT_ID = <<your project id>>  
+GOOGLE_CLOUD_REGION=us-central1 <<or your region>>  
+STORAGE_BUCKET = next-demo-store <<or your storage bucket name>>  
 
 Make sure this Cloud Storage bucket exists in your Google Cloud project.
 
@@ -37,7 +43,7 @@ Make sure this Cloud Storage bucket exists in your Google Cloud project.
 
 ## 🗂️ Project Structure
 
-task-1/  
+01-single-agent-adk/  
 ├── .env                  – Environment variables  
 ├── __init__.py           – Module entry point  
 ├── agent.py              – Agent logic using ADK  
